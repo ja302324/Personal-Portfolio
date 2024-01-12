@@ -112,7 +112,7 @@ body {
   .menu-links {
     position: absolute;
     top: 100%;
-    right: 10;
+    right: 0;
     background-color: white;
     width: fit-content;
     
@@ -505,6 +505,7 @@ a.expolink {
   font-family: poppins;
   background-color: white;
   border-color:#088e05;
+  color: black;
 }
 
 
