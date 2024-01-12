@@ -9,72 +9,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jesse Adamu Personal Portfolio</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <div class="container">
-          <div class="logo">
-            <a href="index.html"><span>Jesse</span>Adamu</a>
-          </div>
-          <div id="mainListDiv" class="main_list">
-            <ul class="navlinks">
-              <li><a class="nav-link" href="about.html">About</a></li>
-              <li><a class="nav-link" href="contact.html">Contact</a></li>
+    <nav id="desktop-nav">
+      <div class="logo"><a href="index.html"><span>Jesse</span> Adamu</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
             </ul>
-          </div>
-        </nav>
-    </header>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><a  href="index.html"><span>Jesse</span>Adamu</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="about.html" onclick="toggleMenu()">About</a></li>
+          <li><a href="contact.html"onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
 
     <!-- Personal Portfolio Jesse Adamu -->
 
     <!-- HOME SECTION -->
-    <section class="container-section-1">
+    <section id="container-section-1">
       <div class="slogan">
-        <h2 class="company-slogan2">Hi guys, I'm</h2>
-        <h1 class="company-title">Jesse Adamu</h1>
-        <p class="company-slogan">
+        <h2 class="port-slogan2">Hi guys, I'm</h2>
+        <h1 class="port-title">Jesse Adamu</h1>
+        <p class="port-slogan">
           Bonjour and welcome to my portfolio!</p>
-          <p class="company-slogan">
+          <p class="port-slogan">
           I'm a junior majoring in Computer
           Science at Wilmington University, where I delve into the intricacies
           of code and the artistry of problem-solving
           </p>
-          <p class="company-slogan">
+          <p class="port-slogan">
           My journey in technology is fueled by a desire to become a software engineer, crafting elegant solutions to complex challenges. Growing up in Ivory Coast, I not only honed my programming skills but also embraced the beauty of the French language. 
           </p>
-          <p class="company-slogan">
+          <p class="port-slogan">
           C'est un plaisir pour moi de fusionner la précision de la programmation avec la créativité du design. 
           </p> 
-          <p class="company-slogan">
+          <p class="port-slogan">
           Join me on this digital exploration, where lines of code and strokes of creativity converge.
         </p>  
       </div>
       <div class="home-computer-container">  
         <img class="jesse1" src="Jesse Adamu2.png" alt="Jesse Adamu">
-        <figcaption>Jesse Adamu, Museum tour</figcaption>
       </div>
+
+      
 
     </section>
 
-    <hr class="solid">
+    
 
     <section class="container-section-1"></section>
+    <hr class="solid">
     <div class="main">
-      <h2 class="company-slogan2">Welcome!</h2> 
-      <h2 class="company-slogan2">
+      <h2 class="port-slogan3">Welcome!</h2> 
+      <h2 class="port-slogan3">
         "And I will honor and make the place of my feet glorious" ~ Isaiah 60:13
       </h2>
+
+      <ul class="socialicons">
+        <li>
+          <a href="https://www.linkedin.com/in/jesseadamu2/">
+            <i class="fab fa fa-linkedin icon"></i>    </a>
+        </li>
+        <li>
+          <a href="https://github.com/ja302324"><i class="fab fa fa-github icon"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/jesse.adamu/"><i class="fab fa fa-instagram icon"></i></a></li>
+       
     </div>
 
-    <footer class="foot">
-      <div id="contactInfo" class="contactinfo"></div>
-      <h3 class="H3">Phone Number: (716)309-0007</h3>
-      <h3 class="H3">Email Adress:<a href="mailto:jadamu001@wilmu.edu">jadamu001@wilmu.edu</a></h3>
-      <h3 class="H3">Address: 320 N Dupont Hwy, New Castle, DE 19720</h3>
-    </div>
-    
-    </footer>
 
+    <script src="strict.js"></script>
   </body>
 </html>

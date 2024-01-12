@@ -4,87 +4,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio About me</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <div class="container">
-          <div class="logo">
-            <a href="index.html"><span>Jesse</span>Adamu</a>
-          </div>
-          <div id="mainListDiv" class="main_list">
-            <ul class="navlinks">
-              <li><a class="nav-link" href="about.html">About</a></li>
-              <li><a class="nav-link" href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-          <div class="menu-toggle">
-            <i class="bx bx-menu"></i>
-            <i class="bx bx-x"></i>
-          </div>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <a href="index.html"><span>Jesse</span> Adamu</a>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <a href="index.html"><span>Jesse</span>Adamu</a>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-      
-    </header>
-
-  
+        <div class="menu-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </div>
+      </div>
+    </nav>
 
     <!-- HOME SECTION -->
     <section class="home"></section>
-    <div class="main">
-      <h2 class="myH3">About</h2>
-      <p class="myP">
-        Hello! My Name is Jesse Adamu. I am a Junior in computer Science at
-        Wilmington University.
-      </p>
+    <div class="main1">
+      <h2 class="myH3">About Me</h2>
     </div>
 
-    <section>
-    <div class="about01">
-      <h2>Jesse's Work Experience</h2>
-      <table class="table1">
-        <tr>
-          <th>Position</th>
-          <th>Company</th>
-          <th>Duration</th>
-        </tr>
-        <tr>
-          <td>Co-Founder & Lead Web Developer</td>
-          <td>Saved By Desing</td>
-          <td>July 2023-Present</td>
-        </tr>
-        <tr>
-          <td>Director of 5K Race setting</td>
-          <td>WNY STEM</td>
-          <td>September 2018- April 2020</td>
-        </tr>
-        <tr>
-          <td>Web Designer</td>
-          <td>Eclipse Multi-Sport</td>
-          <td>Aug 2016 - Apr 2018</td>
-        </tr>
-        <tr>
-          <td>Management</td>
-          <td>X-gen Elite</td>
-          <td>June2020- June 2021</td>
-        </tr>
-      </table>
-    </div>
-    
-    <div class="home-computer-container">  
-      <img class="jesse2" src="Jesse Adamu1.png" alt="Jesse Adamu">
-      <figcaption>Jesse Adamu, Museum tour</figcaption>
+    <section id="about">
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./jesse's img.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+    <div class="section-container">
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img
+              src="./assets/experience.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <h3>Major</h3>
+            <p>Computer Science<br />Junior</p>
+          </div>
+          <div class="details-container">
+            <img
+              src="./assets/education.png"
+              alt="Education icon"
+              class="icon"
+            />
+            <h3>Education</h3>
+            <p>Undergraduate</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <footer>
- <div id="contactInfo" class="contactinfo"></div>
- <h3 class="H3">Phone Number: (716)309-0007</h3>
- <h3 class="H3">Email Adress:<a href="mailto:jadamu001@wilmu.edu">jadamu001@wilmu.edu</a></h3>
- <h3 class="H3">Address: 320 N Dupont Hwy, New Castle, DE 19720</h3>
-</div>
+  
+  <hr class="solid">
+  <div class="main">
+    <h2 class="port-slogan3">
+      "And I will honor and make the place of my feet glorious" ~ Isaiah 60:13
+    </h2>
 
- </footer>
- 
+    <ul class="socialicons">
+      <li>
+        <a href="https://www.linkedin.com/in/jesseadamu2/">
+          <i class="fab fa fa-linkedin icon"></i>    </a>
+      </li>
+      <li>
+        <a href="https://github.com/ja302324"><i class="fab fa fa-github icon"></i></a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/jesse.adamu/"><i class="fab fa fa-instagram icon"></i></a></li>
+     
+  </div>
+
+    <script src="strict.js"></script>
   </body>
 </html>
